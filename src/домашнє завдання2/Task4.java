@@ -11,7 +11,6 @@ public class Task4 {
 
     public static void main(String[] args) {
 
-
         Integer[] arr = {3, 2, 3, 1, 4, 2, 8, 3};
         for (int x = 0; x < arr.length; x++) {
             for (int y = x + 1; y < arr.length; y++) {
@@ -19,10 +18,8 @@ public class Task4 {
                     arr[y] = 0;
                 }
             }
-
         }
         System.out.println();
         showArr(arr);
-
     }
 }
